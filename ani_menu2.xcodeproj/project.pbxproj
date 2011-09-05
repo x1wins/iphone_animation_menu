@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B991B0B813C3FE9B00A242EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B991B0B713C3FE9B00A242EB /* UIKit.framework */; };
+		B991B0BA13C3FE9B00A242EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B991B0B913C3FE9B00A242EB /* Foundation.framework */; };
+		B991B0BC13C3FE9B00A242EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B991B0BB13C3FE9B00A242EB /* CoreGraphics.framework */; };
+		B991B0C213C3FE9B00A242EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B991B0C013C3FE9B00A242EB /* InfoPlist.strings */; };
+		B991B0C513C3FE9B00A242EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0C413C3FE9B00A242EB /* main.m */; };
+		B991B0C813C3FE9B00A242EB /* ani_menu2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0C713C3FE9B00A242EB /* ani_menu2AppDelegate.m */; };
+		B991B0CB13C3FE9B00A242EB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B991B0C913C3FE9B00A242EB /* MainWindow.xib */; };
+		B991B0D313C3FEE300A242EB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D213C3FEE300A242EB /* RootViewController.m */; };
+		B991B0D613C3FFD800A242EB /* Menu1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D513C3FFD800A242EB /* Menu1ViewController.m */; };
+		B991B0D913C3FFEC00A242EB /* Menu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D813C3FFEC00A242EB /* Menu2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B991B0B313C3FE9B00A242EB /* ani_menu2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ani_menu2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B991B0B713C3FE9B00A242EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B991B0B913C3FE9B00A242EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B991B0BB13C3FE9B00A242EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B991B0BF13C3FE9B00A242EB /* ani_menu2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ani_menu2-Info.plist"; sourceTree = "<group>"; };
+		B991B0C113C3FE9B00A242EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B991B0C313C3FE9B00A242EB /* ani_menu2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ani_menu2-Prefix.pch"; sourceTree = "<group>"; };
+		B991B0C413C3FE9B00A242EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B991B0C613C3FE9B00A242EB /* ani_menu2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ani_menu2AppDelegate.h; sourceTree = "<group>"; };
+		B991B0C713C3FE9B00A242EB /* ani_menu2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ani_menu2AppDelegate.m; sourceTree = "<group>"; };
+		B991B0CA13C3FE9B00A242EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B991B0D113C3FEE300A242EB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B991B0D213C3FEE300A242EB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B991B0D413C3FFD700A242EB /* Menu1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu1ViewController.h; sourceTree = "<group>"; };
+		B991B0D513C3FFD800A242EB /* Menu1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu1ViewController.m; sourceTree = "<group>"; };
+		B991B0D713C3FFEC00A242EB /* Menu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu2ViewController.h; sourceTree = "<group>"; };
+		B991B0D813C3FFEC00A242EB /* Menu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B991B0B013C3FE9B00A242EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991B0B813C3FE9B00A242EB /* UIKit.framework in Frameworks */,
+				B991B0BA13C3FE9B00A242EB /* Foundation.framework in Frameworks */,
+				B991B0BC13C3FE9B00A242EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B991B0A813C3FE9A00A242EB = {
+			isa = PBXGroup;
+			children = (
+				B991B0BD13C3FE9B00A242EB /* ani_menu2 */,
+				B991B0B613C3FE9B00A242EB /* Frameworks */,
+				B991B0B413C3FE9B00A242EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B991B0B413C3FE9B00A242EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B991B0B313C3FE9B00A242EB /* ani_menu2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B991B0B613C3FE9B00A242EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B991B0B713C3FE9B00A242EB /* UIKit.framework */,
+				B991B0B913C3FE9B00A242EB /* Foundation.framework */,
+				B991B0BB13C3FE9B00A242EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B991B0BD13C3FE9B00A242EB /* ani_menu2 */ = {
+			isa = PBXGroup;
+			children = (
+				B991B0C613C3FE9B00A242EB /* ani_menu2AppDelegate.h */,
+				B991B0C713C3FE9B00A242EB /* ani_menu2AppDelegate.m */,
+				B991B0C913C3FE9B00A242EB /* MainWindow.xib */,
+				B991B0BE13C3FE9B00A242EB /* Supporting Files */,
+				B991B0D113C3FEE300A242EB /* RootViewController.h */,
+				B991B0D213C3FEE300A242EB /* RootViewController.m */,
+				B991B0D413C3FFD700A242EB /* Menu1ViewController.h */,
+				B991B0D513C3FFD800A242EB /* Menu1ViewController.m */,
+				B991B0D713C3FFEC00A242EB /* Menu2ViewController.h */,
+				B991B0D813C3FFEC00A242EB /* Menu2ViewController.m */,
+			);
+			path = ani_menu2;
+			sourceTree = "<group>";
+		};
+		B991B0BE13C3FE9B00A242EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B991B0BF13C3FE9B00A242EB /* ani_menu2-Info.plist */,
+				B991B0C013C3FE9B00A242EB /* InfoPlist.strings */,
+				B991B0C313C3FE9B00A242EB /* ani_menu2-Prefix.pch */,
+				B991B0C413C3FE9B00A242EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B991B0B213C3FE9B00A242EB /* ani_menu2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "ani_menu2" */;
+			buildPhases = (
+				B991B0AF13C3FE9B00A242EB /* Sources */,
+				B991B0B013C3FE9B00A242EB /* Frameworks */,
+				B991B0B113C3FE9B00A242EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ani_menu2;
+			productName = ani_menu2;
+			productReference = B991B0B313C3FE9B00A242EB /* ani_menu2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B991B0AA13C3FE9A00A242EB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "ani_menu2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B991B0A813C3FE9A00A242EB;
+			productRefGroup = B991B0B413C3FE9B00A242EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B991B0B213C3FE9B00A242EB /* ani_menu2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B991B0B113C3FE9B00A242EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991B0C213C3FE9B00A242EB /* InfoPlist.strings in Resources */,
+				B991B0CB13C3FE9B00A242EB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B991B0AF13C3FE9B00A242EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991B0C513C3FE9B00A242EB /* main.m in Sources */,
+				B991B0C813C3FE9B00A242EB /* ani_menu2AppDelegate.m in Sources */,
+				B991B0D313C3FEE300A242EB /* RootViewController.m in Sources */,
+				B991B0D613C3FFD800A242EB /* Menu1ViewController.m in Sources */,
+				B991B0D913C3FFEC00A242EB /* Menu2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B991B0C013C3FE9B00A242EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B991B0C113C3FE9B00A242EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B991B0C913C3FE9B00A242EB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B991B0CA13C3FE9B00A242EB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B991B0CC13C3FE9B00A242EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B991B0CD13C3FE9B00A242EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B991B0CF13C3FE9B00A242EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ani_menu2/ani_menu2-Prefix.pch";
+				INFOPLIST_FILE = "ani_menu2/ani_menu2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B991B0D013C3FE9B00A242EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ani_menu2/ani_menu2-Prefix.pch";
+				INFOPLIST_FILE = "ani_menu2/ani_menu2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "ani_menu2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B991B0CC13C3FE9B00A242EB /* Debug */,
+				B991B0CD13C3FE9B00A242EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "ani_menu2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B991B0CF13C3FE9B00A242EB /* Debug */,
+				B991B0D013C3FE9B00A242EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B991B0AA13C3FE9A00A242EB /* Project object */;
+}
