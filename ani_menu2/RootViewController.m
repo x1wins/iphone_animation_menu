@@ -20,10 +20,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -67,7 +63,7 @@
     
     
     //init
-    togle = YES;
+    toggle = YES;
     menu1ViewController = [[Menu1ViewController alloc]init];
     menu2ViewController = [[Menu2ViewController alloc]init];
     
@@ -122,19 +118,19 @@
 
 - (void) button2HiddenShow {
 
-    [menu2Button setHidden:!togle];
+    [menu2Button setHidden:!toggle];
     
 }
 
 - (void) button1HiddenShow {
     
-    [menu1Button setHidden:!togle];
+    [menu1Button setHidden:!toggle];
     
 }
 
 - (void) clickButton1 {
     
-    if(togle){
+    if(toggle){
         
         [UIView beginAnimations:nil context:NULL];
         [UIView setAnimationDelegate:self];
@@ -171,13 +167,13 @@
         
     }
     
-    togle = !togle;
+    toggle = !toggle;
     
 }
 
 - (void) clickButton2 {
     
-    if(togle){
+    if(toggle){
         
         [UIView beginAnimations:nil context:NULL];
         [UIView setAnimationDelegate:self];
@@ -214,7 +210,7 @@
         
     }
     
-    togle = !togle;
+    toggle = !toggle;
     
 }
 

@@ -16,9 +16,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //my code
-    [[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];
-    rootViewController = [[RootViewController alloc]init];
-    [self.window addSubview:rootViewController.view];
+    self.rootViewController = [[RootViewController alloc]init];
+    [self.window addSubview:_rootViewController.view];
     
     
     // Override point for customization after application launch.
@@ -65,10 +64,5 @@
      */
 }
 
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
 
 @end

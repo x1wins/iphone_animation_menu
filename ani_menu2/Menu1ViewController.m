@@ -20,10 +20,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -63,8 +59,6 @@
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
         [imageView setFrame:CGRectMake(50, 0.0f, 480-50, 320)];
         [self.view addSubview:imageView];
-        [imageView release];
-        [image release];
     }
     // 데이터를 정상적으로 읽어오지 못했을 경우의 처리
     else
@@ -74,7 +68,6 @@
         [label setTextAlignment:UITextAlignmentCenter];
         [label setBackgroundColor:[UIColor clearColor]];
         [self.view addSubview:label];
-        [label release];
     }
     
     

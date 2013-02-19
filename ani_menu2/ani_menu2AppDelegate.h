@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
 
-@interface ani_menu2AppDelegate : NSObject <UIApplicationDelegate> {
-    RootViewController  *rootViewController;
-}
+@interface ani_menu2AppDelegate : NSObject <UIApplicationDelegate>
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, strong) RootViewController  *rootViewController;
 
 @end

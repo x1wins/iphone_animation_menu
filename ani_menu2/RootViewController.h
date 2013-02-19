@@ -17,9 +17,10 @@
 #define BUTTON_WIDTH 50
 #define BUTTON_HEIGHT 80
 
-@interface RootViewController : UIViewController {
+@interface RootViewController : UIViewController
+{
 
-    BOOL togle;
+    BOOL toggle;
     CGRect viewRect;
     
     Menu1ViewController *menu1ViewController;

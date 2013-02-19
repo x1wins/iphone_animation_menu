@@ -17,16 +17,17 @@
 		B991B0D313C3FEE300A242EB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D213C3FEE300A242EB /* RootViewController.m */; };
 		B991B0D613C3FFD800A242EB /* Menu1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D513C3FFD800A242EB /* Menu1ViewController.m */; };
 		B991B0D913C3FFEC00A242EB /* Menu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B991B0D813C3FFEC00A242EB /* Menu2ViewController.m */; };
+		DB1939C216D3EA3300B9E315 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1939C116D3EA3300B9E315 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B991B0B313C3FE9B00A242EB /* ani_menu2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ani_menu2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B991B0B313C3FE9B00A242EB /* changwooAnimationMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changwooAnimationMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B991B0B713C3FE9B00A242EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B991B0B913C3FE9B00A242EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B991B0BB13C3FE9B00A242EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B991B0BF13C3FE9B00A242EB /* ani_menu2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ani_menu2-Info.plist"; sourceTree = "<group>"; };
+		B991B0BF13C3FE9B00A242EB /* changwooAnimationMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "changwooAnimationMenu-Info.plist"; sourceTree = "<group>"; };
 		B991B0C113C3FE9B00A242EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B991B0C313C3FE9B00A242EB /* ani_menu2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ani_menu2-Prefix.pch"; sourceTree = "<group>"; };
+		B991B0C313C3FE9B00A242EB /* changwooAnimationMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "changwooAnimationMenu-Prefix.pch"; sourceTree = "<group>"; };
 		B991B0C413C3FE9B00A242EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B991B0C613C3FE9B00A242EB /* ani_menu2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ani_menu2AppDelegate.h; sourceTree = "<group>"; };
 		B991B0C713C3FE9B00A242EB /* ani_menu2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ani_menu2AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +38,7 @@
 		B991B0D513C3FFD800A242EB /* Menu1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu1ViewController.m; sourceTree = "<group>"; };
 		B991B0D713C3FFEC00A242EB /* Menu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu2ViewController.h; sourceTree = "<group>"; };
 		B991B0D813C3FFEC00A242EB /* Menu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu2ViewController.m; sourceTree = "<group>"; };
+		DB1939C116D3EA3300B9E315 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B991B0A813C3FE9A00A242EB = {
 			isa = PBXGroup;
 			children = (
+				DB1939C116D3EA3300B9E315 /* Default-568h@2x.png */,
 				B991B0BD13C3FE9B00A242EB /* ani_menu2 */,
 				B991B0B613C3FE9B00A242EB /* Frameworks */,
 				B991B0B413C3FE9B00A242EB /* Products */,
@@ -65,7 +68,7 @@
 		B991B0B413C3FE9B00A242EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B991B0B313C3FE9B00A242EB /* ani_menu2.app */,
+				B991B0B313C3FE9B00A242EB /* changwooAnimationMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +103,9 @@
 		B991B0BE13C3FE9B00A242EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B991B0BF13C3FE9B00A242EB /* ani_menu2-Info.plist */,
+				B991B0BF13C3FE9B00A242EB /* changwooAnimationMenu-Info.plist */,
 				B991B0C013C3FE9B00A242EB /* InfoPlist.strings */,
-				B991B0C313C3FE9B00A242EB /* ani_menu2-Prefix.pch */,
+				B991B0C313C3FE9B00A242EB /* changwooAnimationMenu-Prefix.pch */,
 				B991B0C413C3FE9B00A242EB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B991B0B213C3FE9B00A242EB /* ani_menu2 */ = {
+		B991B0B213C3FE9B00A242EB /* changwooAnimationMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "ani_menu2" */;
+			buildConfigurationList = B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "changwooAnimationMenu" */;
 			buildPhases = (
 				B991B0AF13C3FE9B00A242EB /* Sources */,
 				B991B0B013C3FE9B00A242EB /* Frameworks */,
@@ -123,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = ani_menu2;
+			name = changwooAnimationMenu;
 			productName = ani_menu2;
-			productReference = B991B0B313C3FE9B00A242EB /* ani_menu2.app */;
+			productReference = B991B0B313C3FE9B00A242EB /* changwooAnimationMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +136,10 @@
 /* Begin PBXProject section */
 		B991B0AA13C3FE9A00A242EB /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "ani_menu2" */;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "changwooAnimationMenu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B991B0B213C3FE9B00A242EB /* ani_menu2 */,
+				B991B0B213C3FE9B00A242EB /* changwooAnimationMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +163,7 @@
 			files = (
 				B991B0C213C3FE9B00A242EB /* InfoPlist.strings in Resources */,
 				B991B0CB13C3FE9B00A242EB /* MainWindow.xib in Resources */,
+				DB1939C216D3EA3300B9E315 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,12 +240,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ani_menu2/ani_menu2-Prefix.pch";
-				INFOPLIST_FILE = "ani_menu2/ani_menu2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ani_menu2/changwooAnimationMenu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ani_menu2/changwooAnimationMenu-Info.plist";
+				PRODUCT_NAME = changwooAnimationMenu;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,11 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ani_menu2/ani_menu2-Prefix.pch";
-				INFOPLIST_FILE = "ani_menu2/ani_menu2-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ani_menu2/changwooAnimationMenu-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "ani_menu2/changwooAnimationMenu-Info.plist";
+				PRODUCT_NAME = changwooAnimationMenu;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "ani_menu2" */ = {
+		B991B0AD13C3FE9A00A242EB /* Build configuration list for PBXProject "changwooAnimationMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B991B0CC13C3FE9B00A242EB /* Debug */,
@@ -269,13 +280,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "ani_menu2" */ = {
+		B991B0CE13C3FE9B00A242EB /* Build configuration list for PBXNativeTarget "changwooAnimationMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B991B0CF13C3FE9B00A242EB /* Debug */,
 				B991B0D013C3FE9B00A242EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
